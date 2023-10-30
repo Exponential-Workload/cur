@@ -1,4 +1,4 @@
 .vitepress/cache
 .vitepress/dist
-public/css/cur
+public/css
 node_modules

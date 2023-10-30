@@ -4,11 +4,11 @@ layout: home
 
 hero:
   name: 'Cursor Moment'
-  text: 'Custom Site Cursors'
-  tagline: Simple, modern site cursors
+  text: 'Simple Site Cursors'
+  tagline: Simple, Modern Cursors. Meet the cursors you never knew your shitpost needed.
   actions:
     - theme: brand
-      text: Get Started
+      text: Start Shitposting
       link: /installing
     - theme: alt
       text: Download
@@ -18,12 +18,15 @@ hero:
     alt: A fucking cursor
 
 features:
-  - title: Modern
-    details: it doesn't look shit
-  - title: SVG
-    details: vectors > all
+  - title: Consistency
+    details: Achieve a modern, uniform appearance across different systems by using the Native Cursor.
+    icon: 🔍
   - title: AGPL-3.0, or later
-    details: perfect for ur open source shitpost site
+    details: Perfect for your libre, open source shitpost site, allowing you to modify it to your heart's content.
+    icon: 📄
+  - title: SVG
+    details: Versatile, Easily Editable, Small; the perfect attributes for a cursor!
+    icon: ✏️
 ---
 
 <style>

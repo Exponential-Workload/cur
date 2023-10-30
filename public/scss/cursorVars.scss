@@ -1,0 +1,7 @@
+@use './cursors.scss' as *;
+/* Define Global Cursor Variables */
+:root {
+  --cursor-default: #{$defaultCursorValue};
+  --cursor-pointer: #{$linkCursorValue};
+  --cursor-text: #{$textCursorValue};
+}

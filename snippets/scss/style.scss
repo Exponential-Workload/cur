@@ -1,0 +1,5 @@
+@use './cursors.scss' as *;
+
+html {
+  @include defaultCursor();
+}

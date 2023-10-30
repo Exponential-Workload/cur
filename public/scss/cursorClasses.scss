@@ -1,0 +1,13 @@
+@use './cursors.scss' as *;
+/* Handle Cursor Classes */
+.cursor {
+  &.default {
+    @include defaultCursor();
+  }
+  &.pointer {
+    @include pointerCursor();
+  }
+  &.text {
+    @include textCursor();
+  }
+}

@@ -1,0 +1,20 @@
+@use './cursors.scss' as *;
+@use './cursorVars.scss' as *;
+@use './cursorClasses.scss' as *;
+/* Handle Cursors for global selectors */
+html.cursor,
+body.cursor {
+  @include defaultCursor();
+  .defaultCursor {
+    @include defaultCursor();
+  }
+  p:not(.nativeCursor) {
+    @include textCursor();
+  }
+  a:not(.nativeCursor) {
+    @include pointerCursor();
+  }
+  .link:not(.nativeCursor) {
+    @include pointerCursor();
+  }
+}

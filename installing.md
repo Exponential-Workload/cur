@@ -16,4 +16,24 @@
 
 ## SCSS
 
-TBA
+`src/cursors.scss` ([Source](https://cur.expo.moe/scss/cursors.scss))
+
+<<< @/public/scss/cursors.scss
+
+`src/your-style.scss`
+
+<<< @/snippets/scss/style.scss
+
+## Plain CSS
+
+`src/your-style.css`
+
+<<< @/snippets/css/style.css
+
+`src/index.html`
+
+<<< @/snippets/css/index.html
+
+## Other
+
+See [Download SVGs](./download-svg.md).

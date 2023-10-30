@@ -6,6 +6,15 @@ export default defineConfig({
   description: 'Improved Site Cursors',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      src: '/svg/ico.svg',
+    },
+    footer: {
+      message:
+        'Released under the <a href="/LICENSE" style="color: var(--vp-c-brand-1);text-decoration: underline;">AGPL-3.0 License</a>, or at your discression, any later version.',
+      copyright:
+        'Copyright © 2023 <a href="https://codeberg.org/Expo" style="color: var(--vp-c-brand-1);text-decoration: underline;">Exponential-Workload</a>.',
+    },
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Usage', link: '/installing' },
@@ -15,7 +24,8 @@ export default defineConfig({
       {
         text: 'Usage',
         items: [
-          { text: 'Usage', link: '/installing' },
+          { text: 'Welcome', link: '/welcome' },
+          { text: 'Installation', link: '/installing' },
           { text: 'Download SVGs', link: '/download-svg' },
         ],
       },
