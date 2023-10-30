@@ -1,0 +1,31 @@
+@use './cursors.scss' as *;
+#app {
+  @include defaultCursor();
+  .VPHome {
+    .VPHero {
+      .container {
+        .main {
+          .name,
+          .text,
+          .tagline {
+            @include defaultCursor();
+          }
+        }
+      }
+    }
+  }
+  .VPButton,
+  .custom-block.details summary {
+    @include pointerCursor();
+    // for you windows nerds:
+    // @include defaultCursor();
+  }
+  a,
+  a[href] {
+    @include pointerCursor();
+  }
+  code > .line,
+  pre {
+    @include textCursor();
+  }
+}

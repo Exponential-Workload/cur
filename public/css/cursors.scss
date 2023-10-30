@@ -1,0 +1,14 @@
+/* Copyright (c) 2023 Expo. Licensed under the AGPL-3.0-OR-LATER License. The License can also be found at https://cur.expo.moe/LICENSE.html. */
+$cursorPos: 17.654 26.481;
+$defaultCursorValue: url('/svg/default.svg') #{$cursorPos};
+$linkCursorValue: url('/svg/link.svg') #{$cursorPos};
+$textCursorValue: url('/svg/text.svg') #{$cursorPos};
+@mixin defaultCursor() {
+  cursor: #{$defaultCursorValue}, default;
+}
+@mixin pointerCursor() {
+  cursor: #{$linkCursorValue}, pointer;
+}
+@mixin textCursor() {
+  cursor: #{$textCursorValue}, text;
+}
