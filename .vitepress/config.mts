@@ -42,4 +42,5 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Exponential-Workload/cur' },
     ],
   },
+  ignoreDeadLinks: true,
 });

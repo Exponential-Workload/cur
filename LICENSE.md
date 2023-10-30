@@ -1,4 +1,6 @@
 ---
+title: License
+description: The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, specifically designed to ensure cooperation with the community in the case of network server software.
 outline: deep
 ---
 
