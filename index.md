@@ -20,8 +20,8 @@ hero:
 features:
   - title: Modern
     details: it doesn't look shit
-  - title: Custom
-    details: makes your site look a bit nicer
+  - title: SVG
+    details: vectors > all
   - title: AGPL-3.0, or later
     details: perfect for ur open source shitpost site
 ---
